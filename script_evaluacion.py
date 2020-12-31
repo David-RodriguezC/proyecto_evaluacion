@@ -13,3 +13,4 @@ def main(path_model, path_eval_data):
 if __name__ == '__main__':
     path_model, path_data = sys.argv[1], sys.argv[2]
     main(path_model, path_data)
+print(recall_score(datos['label'], modelo.predict(datos['data'])))
