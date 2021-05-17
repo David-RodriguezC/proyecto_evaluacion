@@ -8,3 +8,4 @@ x_train, x_test, y_train, y_test = train_test_split(df['texto'], df['etiqueta'],
 
 ## Añadir el entrenamiento de un modelo de regresion lineal
 ##
+
